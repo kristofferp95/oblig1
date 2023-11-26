@@ -5,11 +5,15 @@
     <title>Upload ZIP File for Clustering</title>
   </head>
   <body>
-    <h1>Upload ZIP File for Clustering</h1>
-    <p>Vennligst last opp en ZIP-fil som inneholder lyd-, bilde- eller tekstfiler.</p>
-    <form method=post enctype=multipart/form-data>
-      <input type=file name=file>
-      <input type=submit value=Upload>
+    <h1>Upload a ZIP File for Clustering</h1>
+    <p>Please upload a ZIP file containing image, audio, or text files for clustering. The following file types are supported within the ZIP file:</p>
+    <ul>
+      <li>Images: .png, .jpg, .jpeg</li>
+      <li>Text: .txt, .docx</li>
+    </ul>
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <input type="submit" value="Upload">
     </form>
   </body>
 </html>
